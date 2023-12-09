@@ -1,15 +1,14 @@
 #!/usr/bin/python3
 """
-Here: class model inherit from BaseModel
+Amenity's class, a subclass of BaseModel
 """
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
     """
-    Summation: Definning the Amenity class thst inherit from BaseModel
-    Public class attributes:
-        name string - empty string
-        """
-
+    This is a subclass of BaseModel class
+    Public class attribute:
+        name: (str)
+    """
     name = ""

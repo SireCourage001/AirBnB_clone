@@ -1,18 +1,16 @@
 #!/usr/bin/python3
 """
-class City that inherits from BaseModel
+City class, a subclass of BaseModel
 """
-
-from models.basemodel import BaseModel
+from models.base_model import BaseModel
 
 
 class City(BaseModel):
     """
-    Summation: Defines class thst inherit from BaseModel
-    Public class attributes.
-    name string - empty string
-    state_id - empty string.
+    A subclass of BaseModel class
+    Public class attributes:
+        state_id: (str) will be State.id
+        name:     (str)
     """
-
+    state_id = ""
     name = ""
-    state_id ""

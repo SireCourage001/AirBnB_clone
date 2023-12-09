@@ -1,19 +1,18 @@
 #!/usr/bin/python3
 """
-class Review that inherits from BaseModel
+Review class, a subclass of BaseModel class
 """
-
 from models.base_model import BaseModel
+
 
 class Review(BaseModel):
     """
-    Summation: Defines the Review class that inherits from BAseModel
+    A subclass of BaseModel class
     Public class attributes:
-        text string - empty string
-        place_id - empty string
-        user_id - empty string
+        place_id:            (str) will be Place.id
+        user_id:             (str) will be User.id
+        text:                (str)
     """
-
-    text = ""
     place_id = ""
     user_id = ""
+    text = ""
