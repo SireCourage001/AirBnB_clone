@@ -26,7 +26,7 @@ class HBNBCommand(cmd.Cmd):
     list_classes = ["BaseModel", "User", "Place", "State", "City",
                     "Amenity", "Review"]
 
-     doc_header = "Documented commands (type help <topic>):"
+    doc_header = "Documented commands (type help <topic>):"
     ruler = '='
 
 
