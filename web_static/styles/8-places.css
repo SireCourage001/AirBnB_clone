@@ -100,7 +100,7 @@ article h2 {
 
 .guest_icon {
 	display:inline-block;
-	background-image:image url;
+	background-image:image url("../images/icon_guest");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 50px;
@@ -109,7 +109,7 @@ article h2 {
 
 .bed_icon {
 	display:inline-block;
-	background-image:image url;
+	background-image:image url("../images/icon_bed");
 	background-repeat: no-repeat;
 	background-position: center;
 
@@ -119,7 +119,7 @@ article h2 {
 
 .bath_icon {
 	display:inline-block;
-	background-image:image url;
+	background-image:image url("../images/icon_bath");
 	background-repeat: no-repeat;
 	background-position: center;
 
